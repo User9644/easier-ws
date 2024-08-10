@@ -1,0 +1,49 @@
+{
+    "name": "easier-ws",
+    "version": "1.0.0",
+    "description": "Easy WebSocket Server for Node.js",
+    "author": "Finlay Faßbender",
+    "license": "MIT",
+    "repository": {
+		"type": "git",
+		"url": "git+https://github.com/User9644/easier-ws.git"
+	},
+    "keywords": [
+      "ws",
+      "websocket"
+    ],
+    "bugs": {
+		"url": "https://github.com/User9644/easier-ws/issues"
+	},
+  "homepage": "https://github.com/User9644/easier-ws#readme",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=1.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "better-node-print": ">=1.0.2",
+    "ws": ">=8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "better-node-print": {
+      "optional": false
+    },
+    "ws": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "better-node-print": ">=1.0.2",
+    "ws": ">=8.0.0"
+  }
+}
+  

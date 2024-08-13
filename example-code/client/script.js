@@ -2,11 +2,11 @@ let ws;
 let e = {};
 
 document.addEventListener('DOMContentLoaded', ev => {
-    ws = new EasierWS("ws://127.0.0.1:8080/");
-
     for (let i in document.body.children) {
         if(document.body.children[i].id) e[document.body.children[i].id] = document.body.children[i];
     }
+    
+    ws = new EasierWS(e.ws.value);
 
     ws.on("connecting", ev => {
         e.status.innerText = "Connecting ...";

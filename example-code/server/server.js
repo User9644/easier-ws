@@ -6,7 +6,7 @@ const server = new EasyWSS({port: 8080});
 server.on("message", (socket, msg) => {
     printc([
         {text: socket.remoteAddress, color: "yellow"},
-        {text: " sendet Nachricht: "},
+        {text: " send Message: "},
         {text: JSON.stringify(msg), color: "blue"}
     ]);
     server.sendAll(msg);

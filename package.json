@@ -29,6 +29,10 @@
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "ws": ">=8.0.0",
+    "better-node-print" : ">=1.0.2"
+  },
   "peerDependencies": {
     "better-node-print": ">=1.0.2",
     "ws": ">=8.0.0"

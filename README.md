@@ -1,6 +1,7 @@
 # easier-ws
 
 [![Version npm](https://img.shields.io/npm/v/easier-ws.svg?logo=npm)](https://www.npmjs.com/package/easier-ws)
+[![Downloads npm](https://img.shields.io/npm/d18m/easier-ws.svg?logo=npm)](https://www.npmjs.com/package/easier-ws)
 
 A Node.js package to make ws easier (definitely not).
 
